@@ -1,4 +1,4 @@
-![Sonoff 4ch Pro r2 Irrigation / Sprinkler node](/images/SONOFF4CHPro-2_1024x1024.png)
+![Sonoff 4ch Pro r2 Irrigation / Sprinkler node](/images/poster_irrigation_node.png)
 
 Alternative Irrigation / Sprikler firmware for Sonoff 4ch Pro with **easy configuration using webUI, OTA updates, automation using timers and entirely local control over HTTP, or 433Mhz remote control**.
 _Written in Arduino IDE._
