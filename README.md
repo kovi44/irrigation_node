@@ -23,9 +23,9 @@ The goal of this project was re-use of existing Sonoff 4ch Pro r2 hardware for g
 * Simple API to integrate with existing HomeAutomation
 
 ## Default settings
-WebUI port 80 -> you are able to change it in WebUI setup
-WebUI login protection is turned off
-Default login credentials are admin/admin
+* WebUI port 80 -> you are able to change it in WebUI setup
+* WebUI login protection is turned off
+* Default login credentials are admin/admin
 
 
 ## Notes
