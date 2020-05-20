@@ -14,7 +14,13 @@ The goal of this project was re-use of existing Sonoff 4ch Pro r2 hardware for g
 * Ability to schedue daily irrigation by setupin Morning and Evening Irrigation program for each day of week 
 * Manually turn on or off any of 4 irrigation zones
 * Run the defined irrigation program anytime
-* easily script the iriigation program by simple syntax (example: p1_10-p2_10-p3_10-p4_20_p1_5-p3_5, which means p1_10 - run zone#1 for 10 minutes (p[zone]_minutes_to_run) 
+* easily script the iriigation program by simple syntax (example: p1_10-p2_10-p3_10-p4_20_p1_5-p3_5, which means p1_10 - run zone#1 for 10 minutes syntax: p[zone]_minutes_to_run plus "-" separate each zone) 
+* OTA firmware update - easily upgrade by next releases
+* Simple First Time Installation -> connecting to your WIFI network and configure it for day-to-day operation
+* UPnP router setup for PORT FORWARDING to access it from public internet
+* Basic login screen which can be enabled or disabled base on preference / just like simple protection if you decide to use it via public internet
+* Dynamic DNS host registration and update - support dynamic public IP address
+* Simple API to integrate with existing HomeAutomation
 
 
 ## Notes
