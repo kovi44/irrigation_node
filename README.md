@@ -1,6 +1,6 @@
 ![Sonoff 4ch Pro r2 Irrigation / Sprinkler node](/images/SONOFF4CHPro-2_1024x1024.png)
 
-Alternative firmware for Sonoff 4ch Pro **easy configuration using webUI, OTA updates, automation using timers and entirely local control over HTTP, or 433Mhz remote control**.
+Alternative Irrigation / Sprikler firmware for Sonoff 4ch Pro with **easy configuration using webUI, OTA updates, automation using timers and entirely local control over HTTP, or 433Mhz remote control**.
 _Written in Arduino IDE._
 
 If you like **Wifi Irrigation Node**, give it a star!
@@ -8,8 +8,7 @@ If you like **Wifi Irrigation Node**, give it a star!
 See [RELEASENOTES.md](RELEASENOTES.md) for release information.
 
 ## Description
-
-comming soon
+The goal of this project was re-use of existing Sonoff 4ch Pro r2 hardware for garden irrigation system by alternative firmware. Such irrigation system fully benefits from hardware design - ability to turn ON/OFF zones manually by buttons, use RF433 remotes to start defined Irrigation Zones, handle irrigation scheduling using intuitive WebUI or connect to HomeAutomation System using HTTP API. 
 
 
 ## Disclaimer
@@ -23,7 +22,7 @@ We don't take any responsibility nor liability for using this software nor for t
 ## Quick Install
 esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
 
-### Author
+## Author
 lukas(at)k0val.sk (C)2020
 
 
