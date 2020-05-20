@@ -23,12 +23,8 @@ We don't take any responsibility nor liability for using this software nor for t
 ## Quick Install
 esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
 
-
-### Documentation
-
-* [Documentation Site](https://github.com/kovi44/irrigation_node/tree/master/docs): For information on how to flash Tasmota, configure, use and expand it
-
-### Support's Community
+### Author
+lukas(at)k0val.sk (C)2020
 
 
 
