@@ -22,9 +22,17 @@ The goal of this project was re-use of existing Sonoff 4ch Pro r2 hardware for g
 * Dynamic DNS host registration and update - support dynamic public IP address
 * Simple API to integrate with existing HomeAutomation
 
+## Default settings
+WebUI port 80 -> you are able to change it in WebUI setup
+WebUI login protection is turned off
+Default login credentials are admin/admin
+
 
 ## Notes
 Turn ON zones by buttons is protected by AUTO-OFF functionality. The Zone is turn OFF after 10minutes automatically. Such a functionality is used to prevent issues that you forget to turn it off and leave the hause. 
+
+## RF433 usage
+You can pair your remote control easily -> press 2times quickly the Sonoff button and then 2times press the RC button for pairing. To clear it use the button located on PCB.
 
 
 ## Disclaimer
