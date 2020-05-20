@@ -22,6 +22,11 @@ The goal of this project was re-use of existing Sonoff 4ch Pro r2 hardware for g
 * Dynamic DNS host registration and update - support dynamic public IP address
 * Simple API to integrate with existing HomeAutomation
 
+## Quick Install
+* TO CONNECT VIA SERIAL AND ENABLE BOOTLOADER MODE: See [HOWTO](https://reid-projects.com/how-to-install-esphome-on-sonoff-4ch-pro-r2/)
+* TO INSTALL FIRMWARE: esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
+* TO CONNECT TO HOME WIFI: search for "Irrigation_node" WIFI NETWORK/SSID, then connect, open http://192.168.4.1 and setup credentials of your HOME WIFI
+
 ## Default settings
 * WebUI port 80 -> you are able to change it in WebUI setup
 * WebUI login protection is turned off
@@ -34,6 +39,10 @@ Turn ON zones by buttons is protected by AUTO-OFF functionality. The Zone is tur
 ## RF433 usage
 You can pair your remote control easily -> press 2times quickly the Sonoff button and then 2times press the RC button for pairing. To clear it use the button located on PCB.
 
+## TODO
+* add functionality to group several Sonoff 4ch Pro (Master/Slave) to support more zones (development in progress, the slave nodes will be detected automatically and thecontrol will only via Master node)
+* bugfixing -> especially UI to secure input forms and do input values checks, no protection at all yet
+* user-friendliness improvements
 
 ## Disclaimer
 
@@ -42,10 +51,6 @@ You can pair your remote control easily -> press 2times quickly the Sonoff butto
 If your device connects to mains electricity (AC power) there is danger of electrocution if not installed properly. If you don't know how to install it, please call an electrician (***Beware:*** certain countries prohibit installation without a licensed electrician present). Remember: _**SAFETY FIRST**_. It is not worth the risk to yourself, your family and your home if you don't know exactly what you are doing. Never tinker or try to flash a device using the serial programming interface while it is connected to MAINS ELECTRICITY (AC power).
 
 We don't take any responsibility nor liability for using this software nor for the installation.
-
-## Quick Install
-* TO CONNECT VIA SERIAL AND ENABLE BOOTLOADER MODE: See [HOWTO](https://reid-projects.com/how-to-install-esphome-on-sonoff-4ch-pro-r2/)
-* TO INSTALL FIRMWARE: esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
 
 ## Author
 lukas(at)k0val.sk (C)2020
