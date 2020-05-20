@@ -44,7 +44,8 @@ If your device connects to mains electricity (AC power) there is danger of elect
 We don't take any responsibility nor liability for using this software nor for the installation.
 
 ## Quick Install
-esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
+* TO CONNECT VIA SERIAL AND ENABLE BOOTLOADER MODE: See [HOWTO](https://reid-projects.com/how-to-install-esphome-on-sonoff-4ch-pro-r2/)
+* TO INSTALL FIRMWARE: esptool.py --port [serial_interface like COM3 or /dev/cu.SerialInterface] write_flash -fs 1MB -fm dout 0x0 irrigation_sonoff_4ch_pro_r2.bin
 
 ## Author
 lukas(at)k0val.sk (C)2020
